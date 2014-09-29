@@ -10,23 +10,55 @@
 	margin: 0 auto;
 }
 
-.header {}
+.header {
+  float: left;
+  width: 984px;
+}
 /* hint! what do you have to add here? */
 
-.logo {}
+.logo {
+  width: 90px;
+  border: 2px solid blue;
+  float: left;
+  text-align: center;
+}
 
-.navigation {}
+.navigation {
+  width: 200px;
+  border: 2px solid black;
+  float: right;
+  text-align: center;
+}
 
-.sidebar {}
+.sidebar {
+  clear:both;
+  float: left;
+  height: 260px;
+  width: 120px;
+  text-align: center;
 
-.main-content {}
+}
+
+.main-content {
+  float:left;
+  width: 984px;
+}
 /* hint! you have to contain the floated children elements. */
 
 .sub-content {
-	/* hint! */
+	float: left;
+  height: 130px;
+  width: 820px;
+  text-align: center;
 }
 .sub-content-2 {
-	/* hint! */
+	float:left;
+  height: 130px;
+  width: 820px;
+  text-align: center;
 }
 
-.footer {}
+.footer {
+  clear:both;
+  text-align: center;
+}

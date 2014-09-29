@@ -6,23 +6,49 @@
 /* Example 12 */
 
 /* To Do List */
-.todolist {}
+.todolist {
+  padding-top: 100px;
+  width: 35%;
+  margin: 0 auto;
+  height: 330px;
+}
 
 /* Individual Todo */
-.todo {}
+.todo {
+  clear: left;
+  margin-left: 10px;
+  border-bottom-style: none;
+}
 
 
 /* Priority icon dot */
-.icon {}
+.icon {
+  float: left;
+  padding-right: 10px;
+}
 
 /* Info of the todo, title and date */
-.todo-info {}
+.todo-info {
+  float: left;
+}
 
 /* Title */
-.todo-title {}
+.todo-title {
+  margin-top: 10px;
+  float:left;
+
+}
 
 /* Date */
-.todo-date {}
+.todo-date {
+  float: left;
+  clear: left;
+}
 
 /* Checkboxes! */
-input[type=checkbox] {}
+input[type=checkbox] {
+  float:right;
+  clear: right;
+  margin-top: 20px;
+  margin-right: 30%;
+}

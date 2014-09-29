@@ -8,7 +8,9 @@ body {
 	font-family: Arial, sans-serif;
 	color: #444;
 }
-
+* {
+  text-align: center;
+}
 h1, h2, h3, h4, h5, div {
 	text-transform: uppercase;
 	font-weight: bold;
@@ -53,24 +55,26 @@ div {
 }
 
 .header {
-	background: #FF9C56;
+	border: 1px solid blue;
 }
 
 .logo {
 	background: #FF4D79;
+	border: 2px solid green;
 }
 
 .navigation {
 	background: #E85F43;
+	border: 2px solid blue;
 }
 
 .sidebar {
-	background: #FFBE56;
+	border: 1px solid green;
 }
 
 .main-content {
-	background: #88ABC2;
-	color: #fff;
+	border: 1px solid purple;
+	color: black;
 }
 
 .sub-content {
@@ -82,7 +86,7 @@ div {
 }
 
 .footer {
-	background: #AAD637;
+	border: 1px solid blue;
 }
 
 .post {
@@ -90,14 +94,15 @@ div {
 	margin-bottom: 20px;
 }
 
-.image {
-	background: #8EB22E;
-}
-
 .post_excerpt {
 	background: #708C24;
 	padding: 20px;
 	margin: 0;
+}
+
+.image {
+	background: #8EB22E;
+	border: 2px solid blue;
 }
 
 .widget {
